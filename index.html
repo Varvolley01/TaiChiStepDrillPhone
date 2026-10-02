@@ -706,7 +706,6 @@
                         this.ui.updateStepsDisplay(this.remainingSteps);
                         await stepPromise;
 
-                        this.movement.reset();
                         this.ui.updateStateView(this.movement);
                         this.ui.setStatus('Finished');
                         this.stop(false);
